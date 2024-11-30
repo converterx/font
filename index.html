@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConverterX Font Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🖋️ Font Converter</h1>
+    <textarea id="inputText" placeholder="Enter the text..." oninput="convertText()"></textarea>
+    <div id="outputContainer">
+      <div class="output-section">
+        <h2>Handwriting</h2>
+        <p id="cursiveOutput"></p>
+      </div>
+      <div class="output-section">
+        <h2>Gothic</h2>
+        <p id="gothicOutput"></p>
+      </div>
+      <div class="output-section">
+        <h2>Bold</h2>
+        <p id="boldOutput"></p>
+      </div>
+      <div class="output-section">
+        <h2>Mirror</h2>
+        <p id="upsideDownOutput"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
