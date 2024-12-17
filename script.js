@@ -1,16 +1,16 @@
 const convertText = () => {
   const inputText = document.getElementById('inputText').value;
 
-  // El Yazısı Dönüştürme
+  // Convert to handwriting
   document.getElementById('cursiveOutput').innerText = convertToCursive(inputText);
 
-  // Gotik Dönüştürme
+  // Convert to Gothic
   document.getElementById('gothicOutput').innerText = convertToGothic(inputText);
 
-  // Kalın Dönüştürme
+  // Convert to Bold
   document.getElementById('boldOutput').innerText = inputText.toUpperCase();
 
-  // Ters (Upside Down) Dönüştürme
+  // Convert to Upside Down
   document.getElementById('upsideDownOutput').innerText = inputText.split('').reverse().join('');
 };
 
